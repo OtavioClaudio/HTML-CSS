@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SELETORES PERSONALIZADOS
+    #  = id
+    .  = class
+    :  = pseudo-class
+    :: = pseudo-element
+    >  = clildren=filho
+*/
+
+/* visited=visitado / active=ativo / hover=quando eu passo o mouse por cima / after=depois 'necesssita ives de : é ::' / before=antes 'mesma coisa do after duas vezes dois pontos'
+
+//// "definem estado do elemnto"*/
+
+/* text-decoration: none; = tirar o sublinhado e etc*/
+
+/* visited = site já visitado "cor do link"*/
+
+/* active = cor dele ativo que é quando eu cliquei */
+
+a:visited{
+    color: rgb(168, 1, 1);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+a:active{
+color: yellow;
+}
+
+.especial{
+    background-color: rgba(139, 0, 0, 0.306);
+}
+
+.especial::before{
+    content: "→";
+    color: white;
+}
+
+.especial::after{
+    content: "←";
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}

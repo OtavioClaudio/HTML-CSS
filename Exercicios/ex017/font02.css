@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    font: normal 16px arial, verdana, serif;
+    text-align: left;
+    /* left= esquerda */
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+/* right= direita */
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    /* text-indent= parágrafo */
+}
